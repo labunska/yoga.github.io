@@ -1,0 +1,437 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+ 
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+ 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+header {
+    background-color: #5faa7b;
+    padding: 5px;
+    border-bottom: 15px solid #efbfa3;
+     -webkit-box-shadow: 1px 1px 3px 1px #adacab;
+-moz-box-shadow: 1px 1px 3px 1px #adacab;
+box-shadow: 1px 1px 3px 1px #adacab;
+}
+header:before,
+        header:after {
+            content:"";
+            display:table;
+        }
+         
+        header:after {
+            clear:both;
+        }
+.to_nav img {
+    width: 50px;   
+   
+}
+a.to_nav {
+    float: right;
+    background: #5faa7b;
+    padding: 15px;
+    
+}
+ 
+a.to_nav:hover,
+a.to_nav:focus {
+    color: #1c1c1c;
+    background-color: #5faa7b;
+}
+.nav li.current {
+    background-color: #fea617;
+}
+.logo {
+    top: 15px;
+    left: 15px;
+}
+.logo img {
+    width:75px;
+    height: 75px;
+}
+#primary_nav ul {
+    list-style: none;
+    background: #5faa7b;
+    padding: 5px 0;
+}
+ 
+#primary_nav li a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    height: 2em;
+}
+ 
+
+ 
+#primary_nav li a:hover,
+#primary_nav li a:focus {
+    color: #fff;
+    background: #fea617;
+}
+ .sub_menu {
+    position: relative;
+}
+
+#primary_nav .sub_menu ul {
+    position: absolute;
+    z-index: 1000;
+
+    background-color: rgba(0, 0, 0, .6);
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 1px 1px 3px 1px #adacab;
+-moz-box-shadow: 1px 1px 3px 1px #adacab;
+box-shadow: 1px 1px 3px 1px #adacab;
+}
+.sub_menu li {
+    display: block;
+}
+#primary_nav .sub_menu li a:hover,
+#primary_nav .sub_menu li a:focus {
+        background-color: rgba(255, 255, 255, .1);
+margin: 0;
+
+}
+nav ul ul {
+			    display: none;
+			    position: absolute;
+                right: 0;
+                top: 0;
+                width: 70%;
+			}
+			
+			nav ul li:hover > ul, 
+            nav ul li:focus > ul {
+			    display:inherit;
+			}
+			
+			nav ul ul li {
+			    min-width:170px;
+			    float:none;
+			    display:list-item;
+			    position: relative;
+			}
+
+/* Скопированное */
+.bg_video {
+    width: 100%;
+}
+
+
+
+.container .menu div:nth-of-type(1n+2) {
+    margin-left: 10px;
+}
+.container_3_col {
+    padding: 10px;
+}
+
+
+h2 {
+    color: #5faa7b;
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 1em;
+    
+}
+p {
+    font-size: .8em;
+    line-height: 1.5em;
+    margin: 15px 0;
+}
+.container_3_col div {
+    padding: 25px;
+    
+}
+.container_3_col div:nth-of-type(1n+2) {
+    margin-left: 15px;
+}
+
+.content {
+    margin: 0 auto;
+    margin-top: 10px;
+
+    padding: 50px;
+}
+h1 {
+    color: #fea617;
+    padding-bottom: 15px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.container_3_col h1 {
+    text-align: center;
+}
+.content p {
+    padding 15px 0;
+}
+.gallery figure img {
+    width: 100%;
+    height: auto;
+}
+.gallery figure {
+  display: inline-block;
+  height: auto;
+  margin: 10px;
+  position: relative;
+   -webkit-box-shadow: 1px 1px 3px 1px #adacab;
+-moz-box-shadow: 1px 1px 3px 1px #adacab;
+box-shadow: 1px 1px 3px 1px #adacab;
+}
+.gallery figcaption {
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  background-color: rgba(253, 126, 82,.9);
+  padding: 20px;
+  font-weight: 400;
+  font-size: .7em;
+  color: white;
+  opacity: 0;
+  transition: opacity .75s ease-out;
+}
+.gallery figure:hover figcaption {
+  opacity: 1;
+}
+.pictures img {
+     -webkit-box-shadow: 1px 1px 3px 1px #adacab;
+-moz-box-shadow: 1px 1px 3px 1px #adacab;
+box-shadow: 1px 1px 3px 1px #adacab;
+    margin-bottom: 10px;
+}
+.pictures img:hover {
+    opacity: .8;
+}
+.main li {
+    list-style-type: none;
+    line-height: 2;
+}
+.home_video {
+    position: relative;
+}
+.home_txt {
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2em;
+    width: auto;
+    background-color: rgba(95, 170, 123, .3);
+    padding: 25px;
+    border-radius: 5px;
+
+}
+.home_txt a {
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 15px;
+}
+.home_txt a:hover {
+    color: #fea617;
+}
+.top {
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    background-color: rgba(95, 170, 123, 1);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.8em;
+    color: rgba(255, 255, 255, 1);
+    opacity: 1;
+     
+}
+
+.top:hover {
+    opacity: .7;
+}
+iframe {
+    margin-bottom: 15px;
+}
+.container_3_col .btn {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 70%;
+    border: 2px solid #5faa7b;
+    border-radius: 15px;
+    color: #fea617;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9em;
+    padding: 10px;
+    
+
+}
+.btn:hover {
+    color: #fff;
+        background-color: rgba(95, 170, 123, .8);
+
+}
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100px;
+    margin-top: 25px;
+    border-top: 25px solid #5faa7b;
+    background-color: #efbfa3;
+}
+footer p {
+    font-size: .6em;
+    margin-left: 25px;
+}
+.main p a {
+    color: #5faa7b;
+    border-bottom: 1px solid #5faa7b;
+}
+.main p a:hover {
+    border-bottom: 1px solid #fea617;
+}
+span.heart {
+    color: #fd7e52;
+    font-size: 1.1em;
+
+}
+img, video, embed, object {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgba(95, 170, 123, .2);
+    font-family: 'Fira Mono', monospace;
+
+}
+a {
+    text-decoration: none;
+}
+.main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    padding: 25px;
+    border: 3px dashed #fea617;
+    background-color: #fff;
+    }
+
+@media only screen and (min-width: 768px) {
+.wrapper {
+        position: relative;
+        width: 100%;
+        margin: auto;
+    }
+  header {
+    background-color: #5faa7b;
+    padding: 25px;
+    border-bottom: 25px solid #efbfa3;
+     -webkit-box-shadow: 1px 1px 3px 1px #adacab;
+-moz-box-shadow: 1px 1px 3px 1px #adacab;
+box-shadow: 1px 1px 3px 1px #adacab;
+}   
+    .social {
+        float: right;
+        margin: 15px 15px;;
+        color: #fff;
+        font-style: italic;
+    }
+    #primary_nav {
+        position: absolute;
+        top: 25px;
+        right: 10px;
+        background: none;
+    }
+    .to_nav {
+        display: none;
+    }
+     
+    #primary_nav li {
+        display: inline-block;
+    }
+     
+    #primary_nav li a {
+        border: none;
+        padding: 0 10px;
+        
+    }
+ nav ul ul {
+                left: 0;
+                top: 30px;
+                min-width: 170px;
+     width: auto;
+			}
+   
+.logo img {
+    width:100px;
+    height: 100px;
+    margin: -15px;
+}
+    .container {
+    display: flex;
+    
+}
+    .container {
+    flex: 1;
+}
+    .container_3_col div {
+    flex: 1;
+}
+}
